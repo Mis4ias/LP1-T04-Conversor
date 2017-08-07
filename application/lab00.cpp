@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "conversor.h"
 #include <iostream>
 
@@ -13,8 +14,17 @@ int main(int argc, char * argv[])
     cout << "(2) Converter de graus Fahrenheit para graus Celsius" << endl; 
     cout << "Digite sua opcao: ";
     cin >> opcao;
+    cout << "Digite sua temperatura: ";
+    cin >> temp;
     
-    // Continuar implementacao
+    if(opcao==1){
+    	cout << celsius2Fahrenheit(temp);
+    }
+    if(opcao==2){
+       	cout << fahrenheit2Celsius(temp);
+    }
+
+    
     return 0;
 }
 
