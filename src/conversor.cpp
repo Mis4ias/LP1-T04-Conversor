@@ -8,6 +8,6 @@ float celsius2Fahrenheit (float temp_C) {
 
 float fahrenheit2Celsius (float temp_F) {
     // Continue a implementação
-    temp_F=(temp_F/1.8)-32;
+    temp_F=(temp_F-32)/1.8;
     return temp_F;
 }
